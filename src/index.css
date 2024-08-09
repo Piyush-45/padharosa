@@ -1,6 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Carousel Container */
+.carousel-container {
+  margin: 20px 0;
+}
+
+.carousel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.carousel-card p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
