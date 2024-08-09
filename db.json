@@ -1,0 +1,42 @@
+onst destinations = [
+  {
+    id: 1,
+    name: "Paris",
+    description: "The City of Light",
+    image: "https://example.com/paris.jpg",
+    weatherForecast: { temp: 22, condition: "Sunny" },
+    crowdDensity: 65
+  },
+  {
+    id: 2,
+    name: "Tokyo",
+    description: "A blend of the ultramodern and the traditional",
+    image: "https://example.com/tokyo.jpg",
+    weatherForecast: { temp: 28, condition: "Partly cloudy" },
+    crowdDensity: 80
+  },
+  {
+    id: 3,
+    name: "New York",
+    description: "The Big Apple",
+    image: "https://example.com/newyork.jpg",
+    weatherForecast: { temp: 18, condition: "Rainy" },
+    crowdDensity: 75
+  },
+  {
+    id: 4,
+    name: "Rome",
+    description: "The Eternal City",
+    image: "https://example.com/rome.jpg",
+    weatherForecast: { temp: 26, condition: "Clear" },
+    crowdDensity: 70
+  },
+  {
+    id: 5,
+    name: "Bali",
+    description: "Island of the Gods",
+    image: "https://example.com/bali.jpg",
+    weatherForecast: { temp: 30, condition: "Sunny" },
+    crowdDensity: 50
+  }
+];
