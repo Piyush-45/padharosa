@@ -19,7 +19,7 @@ const Home = () => {
         setDestinations(data);
       } catch (error) {
         console.error('Failed to load destinations:', error);
-        // Use mock data if the API fails
+    
         setDestinations(mockDestinations);
       } finally {
         setLoading(false);
@@ -41,13 +41,9 @@ const Home = () => {
       <SearchBar onSearch={handleSearch} />
       <Carousel
         title="Top Destinations of All Time"
-        destinations={destinations.slice(0, 5)}
+        destinations={destinations.slice(0, 10)}
       />
-      <Carousel
-        title="Discover More Destinations"
-        destinations={destinations.slice(5, 10)}
-      />
-      <h2>All Destinations</h2>
+      <h1 className='font-bold text-3xl text-center my-4 '>All Destinations</h1>
       <DestinationList destinations={destinations} />
     </div>
   );
